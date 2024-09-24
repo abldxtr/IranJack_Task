@@ -30,7 +30,7 @@ export function Shape1() {
   return (
     <ChartContainer
       config={chartConfig}
-      className=" lg:w-[270px] 2xl:w-[400px] md:w-full w-full h-full mt-3 md:mt-0 "
+      className=" lg:w-[270px] 2xl:w-[400px] md:w-full w-full h-full mt-3 md:mt-0 max-h-[200px] md:max-h-none "
     >
       <RadialBarChart
         data={chartData}

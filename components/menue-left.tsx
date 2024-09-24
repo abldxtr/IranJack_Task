@@ -45,8 +45,8 @@ export default function MenueLeft() {
   ];
   const [active, setActive] = useState(6);
   return (
-    <nav className="md:flex h-dvh w-[68px] bg-gray-200 overflow-hidden md:fixed top-[48px] hidden ">
-      <div className="relative w-[68px] bg-gray-200 h-full ">
+    <nav className="md:flex h-dvh w-[68px] bg-[#F0F0F0] overflow-hidden md:fixed top-[48px] hidden ">
+      <div className="relative w-[68px]  h-full ">
         <div className="absolute right-0 h-full w-[8px] bg-[linear-gradient(90deg,_rgba(204,_204,_204,_0)_0%,_rgba(190,_190,_190,_0.2)_100%,_rgba(173,_173,_173,_0.2)_100%,_rgba(173,_173,_173,_0.2)_100%)]"></div>
 
         <div className="flex h-full w-full flex-col items-center space-y-3  ">

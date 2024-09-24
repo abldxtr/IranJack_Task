@@ -36,7 +36,7 @@ export default function Chart4() {
             </div>
 
             {/* <!-- view details --> */}
-            <div className="mt-auto text-[14px] font-normal leading-[20px] text-[#5B5FC7]">
+            <div className="ml-auto md:ml-[0px] mt-auto text-[14px] font-normal leading-[20px] text-[#5B5FC7]">
               View details
             </div>
           </div>

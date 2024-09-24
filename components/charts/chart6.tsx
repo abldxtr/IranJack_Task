@@ -4,7 +4,7 @@ import { Shape6 } from "./shape6";
 
 export default function Chart6() {
   return (
-    <div className="h-[368px] shrink-0 grow rounded-[8px] basis-full lg:col-span-1 sm:col-span-full bg-white p-[16px] [box-shadow:_0px_2px_4px_0px_rgba(0,_0,_0,_0.14),_0px_0px_2px_0px_rgba(0,_0,_0,_0.12);]">
+    <div className="h-[368px] shrink-0 grow rounded-[8px] lg:max-w-[450px] basis-full lg:col-span-1 sm:col-span-full bg-white p-[16px] [box-shadow:_0px_2px_4px_0px_rgba(0,_0,_0,_0.14),_0px_0px_2px_0px_rgba(0,_0,_0,_0.12);]">
       <div className="flex h-full w-full flex-col">
         {/* <!-- title --> */}
         <div className="flex w-full items-center justify-between">
@@ -43,7 +43,7 @@ export default function Chart6() {
             </div>
 
             {/* <!-- view details --> */}
-            <div className="mt-auto text-[14px] font-normal leading-[20px] text-[#5B5FC7]">
+            <div className="ml-auto md:ml-[0px] mt-auto text-[14px] font-normal leading-[20px] text-[#5B5FC7]">
               View details
             </div>
           </div>

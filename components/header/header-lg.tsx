@@ -2,7 +2,7 @@ import { Icons } from "../Icons";
 
 export default function HeaderLg() {
   return (
-    <header className="h-[48px] w-full shrink-0 border-b border-black/5 bg-gray-200 md:fixed md:block top-0 z-20 hidden ">
+    <header className="h-[48px] w-full shrink-0 border-b border-black/5 bg-[#F0F0F0] md:fixed md:block top-0 z-20 hidden ">
       <div className="flex h-full w-full items-center justify-between">
         {/* <!-- 1 --> */}
         <div className="ml-[22px]">
